@@ -1,0 +1,176 @@
+body {
+    width: auto;
+    height: auto;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu_nav {
+    width: 200px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_nav a {
+    margin-right: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.menu_nav li a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.points img {
+    width: 30px;
+    border-radius: 10%;
+}
+
+.idpic img{
+    width: 40px;
+    border-radius: 50%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.googlelogo {
+    font-size: 200px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+    height: 470px;
+    margin-top: -50px;
+}
+
+.gblue {
+    color: rgb(66, 133, 244);
+}
+
+.ored {
+    color: rgb(219, 68, 55);
+}
+
+.oyellow {
+    color: rgb(244, 180, 0);
+}
+
+.lgreen {
+    color: rgb(15, 157, 88);
+}
+
+.inputm {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.inputmconteiner {
+    width: 500px;
+    height: 35px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lupa {
+    width: 50px;
+    padding-bottom: 9px;
+}
+
+.inputmconteiner input {
+    width: 80%;
+    border: none;
+}
+
+.microfonimg {
+    width: 23px;
+    margin-right: 10px;
+}
+
+.buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-style {
+    padding: 10px 18px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(226, 226, 226);
+}
+
+.lang-page {
+    color: blue;
+}
+
+.button-back {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(218, 218, 218);
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.footer1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer1 a {
+    padding: 0 20px;
+    color: gray;
+    text-decoration: none;
+}
+
+.footer1 a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.footer2 {
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer2 a {
+    padding-right: 20px;
+    color: rgb(102, 102, 102);
+    text-decoration: none;
+}
+
+.footer2 a:hover {
+    color: blue;
+    text-decoration: underline;
+}

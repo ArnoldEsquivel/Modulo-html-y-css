@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 55rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #294e95;
+}
+
+.form {
+    background: linear-gradient(to bottom, white, #6ea1ff);
+    width: 350px;
+    height: 350px;
+    padding-left: 60px;
+    color: #213464;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    width: 16.5rem;
+    height: 13rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-weight: 500;
+}
+
+#i-am {
+    padding-right: 2rem;
+    margin-right: 4.2rem;
+}
+
+#birthday {
+    margin-right: 1.8rem;
+}
+
+.boton {
+    background-color: green;
+    color: white;
+    margin-right: 7.2rem;
+}
+    
+.form h1 {
+    font-weight: bolder;
+}
+
+.back-button {
+    width: 80px;
+    height: 25px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    border-radius: 3px;
+    background-color: green;
+}
+
+.back-button a {
+    text-decoration: none;
+    color: white;
+}

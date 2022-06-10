@@ -1,0 +1,159 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: radial-gradient(rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5), rgba(0, 128, 0, 0.5))
+}
+
+.flags-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center
+}
+
+.france {
+    width: 500px;
+    height: 250px;
+    margin: 10px;
+    display: flex;
+    border: 1px solid black;
+}
+
+.bluef {
+    width: 33.33%;
+    height: 250px;
+    background-color: #002395;
+}
+
+.whitef {
+    width: 33.33%;
+    height: 250px;
+    background-color: white;
+}
+
+.redf {
+    width: 34%;
+    height: 250px;
+    background-color: red;
+}
+
+.germany {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 250px;
+    width: 500px;
+    margin: 10px;
+}
+
+.blackg {
+    height: 33.33%;
+    background-color: black;
+}
+
+.redg {
+    height: 33.33%;
+    background-color: red;
+}
+
+.yellowg {
+    height: 33.33%;
+    background-color: rgb(255, 230, 0);
+}
+
+.england {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 500px;
+    height: 250px;
+    margin: 10px;
+    background-color: white;
+}
+
+.redline {
+    width: 45%;
+    height: 13%;
+    background-color: red;
+}
+
+.redline2 {
+    width: 10%;
+    height: 100%;
+    background-color: red;
+}
+
+.redline3 {
+    width: 46%;
+    height: 13%;
+    background-color: red;
+}
+
+.japan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 500px;
+    height: 250px;
+    margin: 10px;
+    background-color:white;
+}
+
+.punto {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: red;
+}
+
+.mexico {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 250px;
+    border: 1px solid black;
+    margin: 10px;
+    background-color: white;
+}
+
+.greenmx {
+    width: 33.33%;
+    height: 250px;
+    background-color: rgb(0, 109, 0);
+}
+
+.whitemx {
+    width: 33.33%;
+    height: 250px;
+}
+
+.whitemx img {
+    width: 100%;
+    padding-top: 45px;
+}
+
+.redmx {
+    width: 34%;
+    height: 250px;
+    background-color: red;
+}
+
+.back-button {
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: linear-gradient(rgba(0, 128, 0, 0.5), rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5));
+}
+
+.back-button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}

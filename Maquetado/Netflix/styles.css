@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #141414;
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+nav img {
+    width: 150px;
+}
+
+div h1 {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.profiles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.profiles a {
+    text-decoration: none;
+}
+
+
+.profiles a img:hover {
+    box-shadow: 0 0  5px white;
+}
+
+.prof_icon {
+    width: 100px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.profiles p {
+    padding-left: 30px;
+    font-size: 15px;
+    color: rgb(145, 145, 145);
+}
+
+.admin_p {
+    font-size: 13px;
+    margin-top: 20px;
+    border: 1px solid rgb(145, 145, 145);
+    width: 150px;
+    height: 20px;
+    color: rgb(145, 145, 145);
+    text-align: center;
+    padding-top: 5px;
+    align-self: center;
+}
+
+.admin_p a {
+    text-decoration: none;
+    color: gray;
+}

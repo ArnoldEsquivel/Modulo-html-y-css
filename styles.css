@@ -1,0 +1,130 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Oldenburg', cursive;
+    background-color: rgba(97, 108, 156, 0.37);
+}
+
+header {
+    display: flex;
+    align-items: baseline;
+}
+
+header h1 {
+    padding-right: 1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+}
+
+.contact-info a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 1rem;
+    color: black;
+    font-weight: bold;
+}
+
+.contact-info a img {
+    margin-bottom: 10px;
+
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mail-a:hover {
+    background-color: #ffc10760;
+}
+
+.whats-a:hover {
+    background-color: #39ae4160;
+}
+
+.maps-a:hover {
+    background: #cb001160;
+}
+
+.github-a:hover {
+    background-color: #5c6bc060;
+}
+
+.linkdin-a:hover {
+    background-color: #0076b560;
+}
+
+.contact-logo {
+    width: 3rem;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+}
+
+.projects-container a {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10rem;
+    height: 15rem;
+    padding: 1rem;
+    border-radius: 3.7rem;
+    text-decoration: none;
+    color: black;
+}
+
+.projects-container h4 {
+    margin-top: 0px;
+    margin-bottom: 0.5rem;
+}
+
+.projects-container a:hover {
+    background: radial-gradient(#ff562288, #2195f388);
+}
+
+#kodemia-logo {
+    width: 2rem;
+    border-radius: 1rem;
+    vertical-align: bottom;
+}
+
+.project-icon {
+    width: 10rem;
+    border-radius: 2rem;
+}
+
+#nft-icon {
+    width: 7rem;
+    border-radius: 1rem;
+}
+
+.code-icon  {
+    width: 2rem;
+    margin-bottom: 0.8rem;
+}

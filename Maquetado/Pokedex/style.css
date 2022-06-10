@@ -1,0 +1,168 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightskyblue;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pokemon_card_god {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    border-radius: 30px;
+    background-color: #ffea8eef;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.pokemon_bc_god {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: #EEDEB3;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.arceus_img {
+    width: 110%;
+
+}
+
+.pokemon_data {
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.pokemon_name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.pokemon_type {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.pokemon_card_fantasma {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    border-radius: 30px;
+    background-color: #414141ef;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.pokemon_bc_fantasma {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: #c7c1c1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.darkrai_img {
+    width: 85%;
+}
+
+.pokemon_card_dragon {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    border-radius: 30px;
+    background-color: #ff4747ef;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.pokemon_bc_dragon {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: #898fca;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.eternatus_img {
+    width: 140%;
+}
+
+.giratia_img {
+    width: 150%;
+}
+
+.kyogre_img {
+    width: 150%;
+}
+
+.necrozma_img {
+    width: 150%;
+}
+
+.solgaleo_img {
+    width: 130%;
+}
+
+.rayquaza_img {
+    width: 110%;
+}
+
+.zekrom_img {
+    width: 125%;
+}
+
+.back-button {
+    margin: 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-button a {
+    text-decoration: none;
+    color: black;
+    width: 70px;
+    height: 30px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgb(199, 199, 199);
+}
